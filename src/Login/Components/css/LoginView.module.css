@@ -1,0 +1,54 @@
+.loginContainer{
+    background-image: url('../../../Resources/backgroundImage.PNG');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    width: 30%;
+    height: 75%;
+    background-color: #f4f4f4;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px #0000002b;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.titleContainer{
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+}
+
+.inputStyle{
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    height: 20%;
+    padding-left: 5%;
+}
+
+.loginButton{
+    height: 10%;
+    width: 30%;
+    align-self: center;
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+}
+.titleImage{
+    object-fit: contain;
+}

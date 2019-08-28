@@ -1,0 +1,25 @@
+.mainViewContainer{
+    height: 100vh;
+    width: 100hw;
+    display: flex
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(187, 187, 187, 0.37);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.userName{
+    
+    color: gray;
+    font-size: 20px;
+}
+
+.changePassword{
+    
+}
